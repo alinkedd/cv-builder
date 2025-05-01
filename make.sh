@@ -10,8 +10,7 @@ current_dir=$(pwd)
 ## Add template as a submodule if it doesn't exist
 
 if [ ! -d "./$src" ]; then
-  #TODO: use submodules or not?
-  git clone "git@github.com:$TEMPLATE.git" "./$src"
+  git submodule add "git@github.com:$TEMPLATE.git" "./$src"
 fi
 
 

@@ -5,9 +5,6 @@ stash
 vars*
 !vars.example.sh
 
-# ignore if no submodules used
-templates/*
-
 # build files
 build/*
 
