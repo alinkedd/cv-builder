@@ -1,0 +1,13 @@
+# temp
+stash
+
+# changing
+vars*
+!vars.example.sh
+
+# build files
+build/*
+
+.gitmodules
+
+!.gitkeep

@@ -1,0 +1,20 @@
+${RECRUITMENT_TEAM_EMAIL}
+
+---
+
+${APPLICATION_TYPE} als ${VACANCY_POSITION}
+
+---
+
+${TO_RECRUITER}
+
+anbei sende ich Ihnen meine Bewerbungsunterlagen für [die Stelle](${VACANCY_URL}) als ${VACANCY_POSITION}.
+
+Bitte lassen Sie mich wissen, falls Sie weitere Informationen von mir benötigen. Ich freue mich auf Ihre Rückmeldung.
+
+Mit freundlichen Grüßen
+${FIRST_NAME} ${LAST_NAME}
+
+---
+
+${COMPANY_NAME}/${DOCUMENT_NAME}.pdf
