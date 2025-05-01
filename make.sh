@@ -11,6 +11,8 @@ current_dir=$(pwd)
 
 if [ ! -d "./$src" ]; then
   git submodule add "git@github.com:$TEMPLATE.git" "./$src"
+  git config -f .gitmodules "submodule.$src.ignore" all
+  git add .gitmodules
 fi
 
 
