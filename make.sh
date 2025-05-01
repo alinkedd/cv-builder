@@ -7,12 +7,10 @@ src="templates/$TEMPLATE"
 vars=$(grep -oP '^export\s+\K\w+' vars.sh)
 current_dir=$(pwd)
 
-## Add template as a submodule if it doesn't exist
+## Add template
 
 if [ ! -d "./$src" ]; then
-  git submodule add "git@github.com:$TEMPLATE.git" "./$src"
-  git config -f .gitmodules "submodule.$src.ignore" all
-  git add .gitmodules
+  git clone "git@github.com:$TEMPLATE.git" "./$src"
 fi
 
 

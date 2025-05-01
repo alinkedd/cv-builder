@@ -23,12 +23,6 @@ Supported latex templates:
 
 Template is added during the build.
 
-To remove current template (specified in vars.sh):
-
-```sh
-./rm-template.sh
-```
-
 ## Build 
 
 ```sh

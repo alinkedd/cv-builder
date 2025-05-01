@@ -4,8 +4,9 @@ stash
 # changing
 vars*
 !vars.example.sh
+templates/
 
 # build files
-build/*
+build/
 
 !.gitkeep
